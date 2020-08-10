@@ -1,0 +1,166 @@
+*{  
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    cursor: url("../image/arrow.cur"), auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{ 
+    list-style: none;
+    display: inline-block;
+    
+}
+li{
+    display: inline-block;
+}
+a{	cursor: url("../image/3d.cur"), pointer;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+.item{
+    border-bottom: 1px solid skyblue;
+}
+.item_nav a{  
+    color: #5e5a5a;
+    background-color:white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: block;
+    height:30px;  
+}
+.item_nav a:hover{
+    color: skyblue;
+    background-color: #FAFAFA   ;
+}
+.item_nav{
+    margin-left: 5%;
+    margin-right: 50%;
+}
+.item_nav li{
+    margin-left: -2%;
+}
+.item_img a{
+    color: skyblue;
+    background-color: rgb(240, 235, 235);
+    padding: 10px;
+    padding-top: 20px;
+    display: block;
+    height:30px;
+    margin-right: -5px;  
+    border-radius: 15%;
+}
+.item_img a:hover{
+    color: #f71d05;
+}
+content{
+    background-color:rgb(164, 208, 226);
+    height: 510px;
+    width: 100%;
+    float: left;
+}
+.cntt{
+    float: left;
+    margin:2%;
+    width: 60%;
+    height: 75%;
+    background-color: rgb(255, 255, 255,0.4);
+    border-radius: 1em;
+}
+.cntt iframe{
+    padding: 5%;
+    padding-left: 15%;
+    width: 70%;
+    height: 80%;
+}
+#robo{
+    font-size: 25px;
+    margin-top: 40%;
+    text-align: center;
+    border: 2px solid saddlebrown;
+    border-radius: 10%;
+    }
+#robo img{
+    width: 80%;
+}
+footer{
+    padding-top: 33px;
+    font-size: larger;
+    float: left;
+    background-color: #ccc;
+    color: black;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+}
+.img_div{
+    box-sizing: border-box;
+    float: right;
+    background-color: rgb(164, 208, 226);
+    height: 100%;
+    width: 30%;
+    margin-right: 3%;
+}
+
+@media only screen and (max-width:1000px){
+            a{
+                font-size: 1em;
+            }
+
+}
+@media only screen and (max-width:800px){
+    a{
+        font-size: 0.8em;
+    }
+    .img_div{
+        float: left;
+        background-color: rgb(164, 208, 226);
+        height: 10%;
+        width: 80%;
+        margin-right: 3%;
+    }
+    #robo{
+        margin-left: 25%;
+        margin-top: 0;
+        font-size: 20px;
+        text-align: center;
+        border: 2px solid saddlebrown;
+        border-radius: 2px;
+        }
+    
+ .cntt{ 
+        float: left;
+        margin-left: 15%;
+        margin-top:20%;
+        width: 70%;
+        height: 50%;
+        background-color: rgb(255, 255, 255,0.4);
+        border-radius: 1em;
+    }
+}
+@media only screen and (max-width:700px){
+            a{
+        font-size: 0.7em;
+    }
+    .item_nav{
+        margin-left: 2%;
+        margin-right: 15%;
+    }
+   
+}
+@media only screen and (max-width:600px){
+    .item_nav{
+        margin-left: 1%;
+        margin-right: 10%;
+}
+.cntt{ 
+    float: left;
+    margin-left: 5%;
+    margin-top:20%;
+    width: 90%;
+    height: 50%;
+    background-color: rgb(255, 255, 255,0.4);
+    border-radius: 1em;
+}
+}
